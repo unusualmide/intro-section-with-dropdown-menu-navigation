@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-family: 'Epilogue', sans-serif;
+}
+
+ .fadein{
+    animation: fadeIn 1s ease 0s 1 normal forwards;
+ }
+
+ @keyframes fadeIn {
+	0% {
+		opacity: 0;
+		
+	}
+
+	100% {
+		opacity: 1;
+	
+	}
+}
+
+.slideright{
+    animation: slideRight 3s ease 0s 1 normal forwards;
+    }
+    
+    @keyframes slideRight {
+        0% {
+            opacity: 0;
+            animation-duration: 5s;
+            transform: translateX(250px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro Section</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body class="antialiased my-4 mx-4 md:mx-7 bg-[#fafafa]">
+    <nav
+      class="invisible md:visible md:flex justify-center items-center gap-7 text-center text-xs font-medium text-[#696969]"
+    >
+      <div class="flex">
+        <img class="w-24 md:w-20 pr-5 visible" src="img/logo.svg" alt="logo" />
+        <img
+          class="visible md:hidden ml-auto h-4 menu"
+          src="img/icon-menu.svg"
+          alt="icon-menu"
+        />
+      </div>
+      <button
+        class="menu-features inline-flex justify-center items-center gap-1 focus:outline-none focus:text-black hover:text-black duration-1000 transition-transform"
+      >
+        Features<img
+          class="arrow-down"
+          src="img/icon-arrow-down.svg"
+          alt="icon-arrow-down"
+        />
+        <img
+          class="arrow-up hidden"
+          src="img/icon-arrow-up.svg"
+          alt="icon-arrow-up"
+        />
+      </button>
+      <button
+        class="menu-large inline-flex justify-center items-center gap-1 focus:outline-none focus:text-black hover:text-black transition-transform duration-1000"
+      >
+        Company<img
+          class="arrowdownlarge"
+          src="img/icon-arrow-down.svg"
+          alt="icon-arrow-down"
+        />
+        <img class="arrowuplarge hidden" src="img/icon-arrow-up.svg" alt="icon-arrow-up"
+      </button>
+      <button class="focus:outline-none focus:text-black hover:text-black">
+        Careers
+      </button>
+      <button class="focus:outline-none focus:text-black hover:text-black">
+        About
+      </button>
+      <button
+        class="ml-auto focus:outline-none focus:text-black hover:text-black"
+      >
+        Login
+      </button>
+      <button
+        class="border-2 py-2 px-5 border-[#696969] rounded-xl focus:outline-none focus:text-black focus:border-black hover:border-black transition duration-1000 hover:text-black"
+      >
+        Register
+      </button>
+    </nav>
+    <main class="flex md:gap-96">
+      <div class="md:ml-[103px] md:mt-32">
+        <div class="drop-menu hidden invisible md:visible fadein">
+          <div
+            class="border flex flex-col justify-start items-start text-[#696969] gap-2.5 p-3 font-medium shadow-xl rounded-lg text-[11px] absolute top-12 left-24 w-fit"
+          >
+            <div class="inline-flex justify-start items-start gap-3">
+              <img class="w-3.5" src="img/icon-todo.svg" alt="icon-todo" />
+              <p>Todo List</p>
+            </div>
+            <div class="inline-flex justify-start items-center gap-3">
+              <img
+                class="w-3.5"
+                src="img/icon-calendar.svg"
+                alt="icon-calendar"
+              />
+              <p>Calendar</p>
+            </div>
+            <div class="inline-flex justify-start items-center gap-3">
+              <img
+                class="w-3.5"
+                src="img/icon-reminders.svg"
+                alt="icon-reminders"
+              />
+              <p>Reminders</p>
+            </div>
+            <div class="inline-flex justify-start items-center gap-3">
+              <img
+                class="w-3.5"
+                src="img/icon-planning.svg"
+                alt="icon-planning"
+              />
+              <p>Planning</p>
+            </div>
+          </div>
+        </div>
+        <div class="dropmenularge hidden invisible md:visible fadein">
+          <div
+            class="border flex flex-col justify-start items-start gap-1.5 text-[#696969] p-4 font-medium shadow-xl rounded-lg text-[11px] absolute top-12 left-[230px]"
+          >
+            <p>History</p>
+            <p>Our Team</p>
+            <p>Blog</p>
+          </div>
+        </div>
+        <img
+          class="md:hidden"
+          src="img/image-hero-mobile.png"
+          alt="image-hero-mobile"
+        />
+        <h1 class="text-4xl md:text-6xl text-center md:text-start font-bold pt-8 md:pt-0">
+          Make <span class="md:block">remote work</span>
+        </h1>
+        <p class="text-center md:text-start text-base md:text-sm text-[#696969] font-medium pt-3 md:pt-8 pb-6 md:pb-11">
+          Get your team in sync, no matter your location.
+          <span class="block"
+            >Streamline processes, create team rituals, and</span
+          >
+          watch productivity soar.
+        </p>
+        <div class="flex justify-center md:justify-start items-center md:items-start">
+        <button
+          class="bg-[#141414] font-bold text-sm text-white py-3 px-6 rounded-xl focus:outline-none focus:bg-white focus:text-black focus:ring-2 focus:ring-black transition duration-1000"
+        >
+          Learn more
+        </button>
+    </div>
+        <div class="flex justify-center md:justify-start items-center gap-5 pt-10 md:pt-20">
+          <img class="w-20" src="img/client-databiz.svg" alt="client-databiz" />
+          <img
+            class="w-14"
+            src="img/client-audiophile.svg"
+            alt="client-audiophile"
+          />
+          <img class="w-16" src="img/client-meet.svg" alt="client-meet" />
+          <img class="w-16" src="img/client-maker.svg" alt="client-maker" />
+        </div>
+      </div>
+      <div>
+        <img
+          class="w-[360px] pt-12 object-contain hidden md:block slideright"
+          src="img/image-hero-desktop.png"
+          alt="image-hero-desktop"
+        />
+      </div>
+    </main>
+
+    <div class="bg-[#fafafa] absolute right-0 top-0 h-[115vh] w-56 border p-4 hidden sidebar md:hidden fadein">
+        <img class="h-5 ml-auto iconclosemenu" src="img/icon-close-menu.svg" alt="icon-close-menu">
+        <div class="flex flex-col justify-start items-start pt-7 gap-5 text-sm font-medium text-[#696969]">
+
+        <button
+        class="menu-mobile inline-flex justify-center items-center gap-1 focus:outline-none focus:text-black hover:text-black"
+      >
+        Features<img
+          class="arrowdown"
+          src="img/icon-arrow-down.svg"
+          alt="icon-arrow-down"
+        />
+        <img
+          class="arrowup hidden"
+          src="img/icon-arrow-up.svg"
+          alt="icon-arrow-up"
+        />
+      </button>
+
+
+     <!-- Mobile Features Drop Down ---->
+<div class="drop-mobile hidden">
+  <div
+    class="flex flex-col  text-[#696969] gap-3 p-3 ml-4 font-medium text-sm relative fadein"
+  >
+    <div class="inline-flex justify-start items-start gap-3">
+      <img class="w-3.5" src="img/icon-todo.svg" alt="icon-todo" />
+      <p>Todo List</p>
+    </div>
+    <div class="inline-flex justify-start items-center gap-3">
+      <img
+        class="w-3.5"
+        src="img/icon-calendar.svg"
+        alt="icon-calendar"
+      />
+      <p>Calendar</p>
+    </div>
+    <div class="inline-flex justify-start items-center gap-3">
+      <img
+        class="w-3.5"
+        src="img/icon-reminders.svg"
+        alt="icon-reminders"
+      />
+      <p>Reminders</p>
+    </div>
+    <div class="inline-flex justify-start items-center gap-3">
+      <img
+        class="w-3.5"
+        src="img/icon-planning.svg"
+        alt="icon-planning"
+      />
+      <p>Planning</p>
+    </div>
+  </div>
+</div>
+
+      <button
+        class="menu-company inline-flex justify-center items-center gap-1 focus:outline-none focus:text-black hover:text-black"
+      >
+        Company   <img
+          class="companyarrowdown"
+          src="img/icon-arrow-down.svg"
+          alt="icon-arrow-down"
+        >
+      </button>
+   
+<!-- Mobile Company Drop Down ---->
+<div class="company-drop hidden fadein">
+  <div
+    class=" flex flex-col justify-start items-start gap-1.5 text-[#696969] font-medium text-sm relative ml-8"
+  >
+    <p>History</p>
+    <p>Our Team</p>
+    <p>Blog</p>
+  </div>
+</div>
+             
+      
+<button class="focus:outline-none focus:text-black hover:text-black">
+  Careers
+</button>
+     
+ 
+
+
+      <button class="focus:outline-none focus:text-black hover:text-black">
+        About
+      </button>
+    </div>
+    <div class="flex flex-col justify-center items-center pt-7 gap-5 text-sm font-medium text-[#696969]">
+    <button
+    class="focus:outline-none focus:text-black hover:text-black"
+  >
+    Login
+  </button>
+  <button
+    class="border-2 py-2 px-14 border-[#696969] rounded-xl focus:outline-none focus:text-black focus:border-black hover:border-black hover:text-black"
+  >
+    Register
+  </button>
+</div>
+
+   <div class=" blackbackground hidden md:hidden absolute bg-black opacity-30 right-56 top-0  w-[259px] h-[115vh]">
+    </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
